@@ -60,7 +60,7 @@
 #---------------------------------------------------#
 
 #--Automating Script versioning
-ScriptVer="1.3-itx"
+ScriptVer="1.3.1-itx"
 
 #--Detecting  OS Version
 version=$(lsb_release -sd)
