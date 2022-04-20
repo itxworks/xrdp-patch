@@ -350,7 +350,7 @@ wget https://raw.githubusercontent.com/itxworks/xrdp-patch/main/session.c.patch
 
 patch -u sesman/session.c -i sessions.c.patch
 
-https://raw.githubusercontent.com/itxworks/xrdp-patch/main/env.c.patch
+wget https://raw.githubusercontent.com/itxworks/xrdp-patch/main/env.c.patch
 
 patch -u sesman/env.c -i env.c.patch
 
