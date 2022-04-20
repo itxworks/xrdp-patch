@@ -1,8 +1,7 @@
 # xrdp-patch
 
-Script based on (allowed to run from root)
+Script based on:
 http://www.c-nergy.be/blog
-
 
 ## Set Client IP from Session as Environmental Variable
 
