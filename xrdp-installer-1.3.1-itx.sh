@@ -81,7 +81,7 @@ modetype="unknown"
 
 xrdpbranch="v0.9.19"
 
-xrdpbranchvar="--branch "$xrdpbranchvar
+xrdpbranchvar="--branch "$xrdpbranch
 
 xorgxrdp="v0.2.18"
 
@@ -358,7 +358,7 @@ cd $Dwnload/xrdp
 
 ### PATCH https://github.com/neutrinolabs/xrdp/discussions/2221
 
-wget https://raw.githubusercontent.com/itxworks/xrdp-patch/main/session.c.patch 
+wget https://raw.githubusercontent.com/itxworks/xrdp-patch/main/sessions.c.patch
 
 patch -u sesman/session.c -i sessions.c.patch
 
