@@ -79,9 +79,14 @@ Dwnload=$(xdg-user-dir DOWNLOAD)
 modetype="unknown"
 
 
-branch="v0.9.19"
+xrdpbranch="v0.9.19"
 
-branchvar="--branch "$branch
+xrdpbranchvar="--branch "$xrdpbranchvar
+
+xorgxrdp="v0.2.18"
+
+xorgxrdpbranchvar="--branch "$xorgxrdp
+
 
 gitdeep="--depth 1"
 
@@ -330,12 +335,12 @@ fi
 echo
 /bin/echo -e "\e[1;32m       |-|  Downloading xRDP Binaries.....     \e[0m"
 echo
-git clone $branchvar $gitdeep https://github.com/neutrinolabs/xrdp.git
+git clone $xrdpbranchvar $gitdeep https://github.com/neutrinolabs/xrdp.git
 echo
 /bin/echo -e "\e[1;32m       |-|  Downloading xorgxrdp Binaries...     \e[0m"
 echo
 
-git clone $branchvar $gitdeep https://github.com/neutrinolabs/xorgxrdp.git
+git clone $xorgxrdpbranchvar $gitdeep https://github.com/neutrinolabs/xorgxrdp.git
 
 }
 
