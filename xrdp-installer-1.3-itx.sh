@@ -357,6 +357,7 @@ patch -u sesman/env.c -i env.c.patch
 #Get the release version automatically
 pkgver=$(git describe  --abbrev=0 --tags  | cut -dv -f2)
 
+sudo ./bootstrap
 sudo ./configure --enable-fuse --enable-jpeg --enable-rfxcodec
 sudo make
 
