@@ -1,10 +1,12 @@
 # xrdp-patch
 
+Script based on (allowed to run from root)
+http://www.c-nergy.be/blog
+
 
 ## Set Client IP from Session as Environmental Variable
 
 https://github.com/neutrinolabs/xrdp/discussions/2221
-
 
 ```
 --- a/sesman/session.c
