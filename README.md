@@ -29,3 +29,16 @@ https://github.com/neutrinolabs/xrdp/discussions/2221
              env_set_user(s->username,
                           0,
 ```
+
+### install
+
+``` 
+
+wget https://raw.githubusercontent.com/itxworks/xrdp-patch/main/xrdp-installer-1.3-itx.sh
+
+chmod +x xrdp-installer-1.3-itx.sh
+
+./xrdp-installer-1.3-itx.sh -c -s
+
+
+```
