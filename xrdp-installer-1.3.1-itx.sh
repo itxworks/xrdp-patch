@@ -381,7 +381,7 @@ echo
 /bin/echo -e "\e[1;31m   !---------------------------------------------!\e[0m"
 exit
 fi
-sudo checkinstall --pkgname=xrdp --pkgversion=$pkgver --pkgrelease=1 --default
+sudo checkinstall --pkgname=xrdp --pkgversion=$pkgver --pkgrelease=2 --default
 
 #xorgxrdp package compilation
 echo
@@ -412,7 +412,7 @@ echo
 /bin/echo -e "\e[1;31m   !---------------------------------------------!\e[0m"
 exit
 fi
-sudo checkinstall --pkgname=xorgxrdp --pkgversion=1:$pkgver --pkgrelease=1 --default
+sudo checkinstall --pkgname=xorgxrdp --pkgversion=1:$pkgver --pkgrelease=2 --default
 }
 
 #---------------------------------------------------#
