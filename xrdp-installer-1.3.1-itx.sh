@@ -83,6 +83,7 @@ branch="v0.9.19"
 
 branchvar="--branch "$branch
 
+gitdeep="--depth 1"
 
 #--------------------------------------------------------------------------#
 # -----------------------Function Section - DO NOT MODIFY -----------------#
@@ -329,12 +330,12 @@ fi
 echo
 /bin/echo -e "\e[1;32m       |-|  Downloading xRDP Binaries.....     \e[0m"
 echo
-git clone $branchvar https://github.com/neutrinolabs/xrdp.git
+git clone $branchvar $gitdeep https://github.com/neutrinolabs/xrdp.git
 echo
 /bin/echo -e "\e[1;32m       |-|  Downloading xorgxrdp Binaries...     \e[0m"
 echo
 
-git clone $branchvar https://github.com/neutrinolabs/xorgxrdp.git
+git clone $branchvar $gitdeep https://github.com/neutrinolabs/xorgxrdp.git
 
 }
 
