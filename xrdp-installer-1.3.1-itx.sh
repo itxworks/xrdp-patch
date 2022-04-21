@@ -215,10 +215,10 @@ fi
 ##--Need to use Variables !!!!!
 if [[ *"$version"* = *"Debian"*  ]]
 then
-	CustomPix="griffon_logo_xrdpd.bmp"
-    CustomColor="27354D"
+	CustomPix="ts_logo_xrdp.bmp"
+        CustomColor="27354D"
 else
-	CustomPix="griffon_logo_xrdp.bmp"
+	CustomPix="ts_logo_xrdp.bmp"
 	CustomColor="4F194C"
 fi
 
@@ -692,7 +692,8 @@ then
 	/bin/echo -e "\e[1;32m       |-| necessary file already available...skipping   \e[0m"
 else
 	/bin/echo -e "\e[1;32m       |-| Downloading additional file...: logo_xrdp image   \e[0m"
-	wget http://www.c-nergy.be/downloads/"$CustomPix"
+	#wget http://www.c-nergy.be/downloads/"$CustomPix"
+	wget https://raw.githubusercontent.com/itxworks/xrdp-patch/main/logo/"$CustomPix"
 fi
 
 #Check where to copy the logo file
