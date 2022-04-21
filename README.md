@@ -33,11 +33,11 @@ https://github.com/neutrinolabs/xrdp/discussions/2221
 
 ``` 
 
-wget https://raw.githubusercontent.com/itxworks/xrdp-patch/main/xrdp-installer-1.3-itx.sh
+wget https://raw.githubusercontent.com/itxworks/xrdp-patch/main/xrdp-installer-1.3.1-itx.sh
 
-chmod +x xrdp-installer-1.3-itx.sh
+chmod +x xrdp-installer-1.3.1-itx.sh
 
-./xrdp-installer-1.3-itx.sh -c -s
+./xrdp-installer-1.3.1-itx.sh -c -s
 
 
 ```
